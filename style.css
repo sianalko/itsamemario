@@ -53,6 +53,157 @@ html {
     padding: 0px 20px 0px 20px;
     color: #FBDFEA;
     font-size: 20px;
+
+}
+
+.wdate {
+    text-align: right;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}
+
+.work_meat {
+    background-color: #FBDFEA;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    color: #688543;
+    font-size: 25px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+}
+
+#job {
+    margin: 50px;
+}
+
+.skills {
+    text-align: center;
+}
+#ts_title {
+    text-align: center;
+    font-size: 40px;
+    background-color: #E51A66;
+    color: #FBDFEA;
+    margin: 0px 100px;
+    padding: 25px;
+}
+
+#nts_title {
+    text-align: center;
+    font-size: 40px;
+    background-color: #E51A66;
+    color: #E4E1FC;
+    margin: 0px 100px;
+    padding: 25px;
+}
+
+.technical_skills {
+    display: grid;
+    grid-template-columns: 300px auto;
+    margin: 40px;
+}
+
+.skill_title {
+    text-align: right;
+    margin: 0px 10px;
+}
+
+#skill_title {
+    background-color:#FBDFEA;
+    padding: 10px;
+    color: #506734;
+}
+
+.skill_meat {
+    background-color: #981144;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    color:#E8EFDF;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    font-family: "Quicksand", sans-serif;
+}
+
+.nontechnical_skills {
+    display: grid;
+    grid-template-columns: 300px auto;
+    margin: 40px;
+}
+
+.ntskill_meat {
+    background-color: #981144;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color:#E8EFDF;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+//colors
+green darker #688543 - green dark #9DBB77 - green light #E8EFDF
+pink dark #E51A66 - pink white #FBDFEA
+blue dark #341AE5 - blue light #E4E1FC
+//html {
+    background-color: #341AE5;
+    font-family: "DynaPuff", system-ui;
+}
+
+.dynapuff-<uniquifier> {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.greeting {
+    text-align: center;
+    padding: 350px 0px 350px 0px;
+    color: #E4E1FC;
+}
+
+#name {
+    color: #FBDFEA;
+    font-size: 50px;
+}
+
+.bio { 
+    background-color: #FBDFEA;
+    padding: 100px;
+    color: #E51A66;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+#header {
+    text-align: center;
+    color: #E4E1FC;
+    font-size: 70px;
+    margin: 50px;
+}
+
+.work_title {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #688543;
+    padding: 0px 20px 0px 20px;
+    color: #FBDFEA;
+    font-size: 20px;
 }
 
 .wdate {
@@ -149,5 +300,6 @@ green darker #688543 - green dark #9DBB77 - green light #E8EFDF
 pink dark #E51A66 - pink white #FBDFEA
 blue dark #341AE5 - blue light #E4E1FC
 //
+
 
 
