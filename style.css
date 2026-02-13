@@ -1,0 +1,59 @@
+html {
+      background-color: #341AE5;
+}
+
+.greeting {
+    text-align: center;
+    padding: 350px 0px 350px 0px;
+    color: #E4E1FC;
+}
+
+#name {
+    color: #FBDFEA;
+    font-size: 50px;
+}
+
+.bio { 
+    background-color: #E51A66;
+    padding: 100px;
+    color: #E8EFDF;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+#header {
+    text-align: center;
+    color: #E4E1FC;
+    font-size: 50px;
+}
+
+.work_title {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #9DBB77;
+    padding: 0px 20px 0px 20px;
+    color: #FBDFEA;
+    font-size: 20px;
+}
+
+.date {
+    text-align: right
+}
+
+.work_meat {
+    background-color: #9DBB77;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    color: #FBDFEA;
+    font-size: 20px;
+}
+
+#job {
+    margin: 50px;
+}
+
+//colors
+green dark #9DBB77 - green light #E8EFDF
+pink dark #E51A66 - pink white #FBDFEA
+//
