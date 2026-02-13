@@ -8,20 +8,26 @@
 </head>
 
 <body>
-    <div class="greeting">
-        <h1>This is Me!</h1>
+    <div class="hat">
+        <h1 class="greeting">Hi there! <br> My name is <span id="name">Ana Lagura :)</span></h1>
+        <h2 class="bio">I'm a detail-oriented system administrator with 4 years of experience in customer service, administration, and data entry. Proven track record of streamlining databases and improving customer engagement through data-driven strategies.</h2>
     </div>
 
     <div class="work_experience">
-        <h1>Work Experience</h1>
-
-        <div id="va_title">
+        <h1 id="header">Work Experience</h1>
+        
+        <div id="va">
+        <div class="work_title">
             <div class="title"><h2>Virtual Assistant, Oro Adventure Tours</h2></div>
-            <div class="date"><h3>Dec 2025 - Present</h3></div>
+            <div class="date"><h2>Dec 2025 - Present</h2></div>
         </div>
 
-        <div id="va_meat">
-            <h4>blah blah balh</h4>
+        <div class="work_meat">
+            <ul>
+                <li>Coordinated data entry and management for eco-tourism operations and data-informed strategies</li>
+                <li>Managed client lifecycle and social media/content creation to facilitate direct sales initiatives and marketing campaigns</li>
+            </ul>
+        </div>
         </div>
     </div>
 </body>
