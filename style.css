@@ -3,6 +3,12 @@ html {
     font-family: "Quicksand", sans-serif;
 }
 
+@media screen and (max-width: 1000px) {
+  {
+    .extra_samples {float: right;}
+  }
+}
+
 .dynapuff-<uniquifier> {
   font-family: "DynaPuff", system-ui;
   font-optical-sizing: auto;
@@ -21,9 +27,9 @@ html {
 
 .greeting {
     text-align: center;
-    padding: 300px 0px 50px;
+    padding: 300px 0px 100px;
     color: #E4E1FC;
-    font-size: 4vw;
+    font-size: 5vw;
 }
 
 #name {
