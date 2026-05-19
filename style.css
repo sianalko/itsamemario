@@ -21,20 +21,21 @@ html {
 
 .greeting {
     text-align: center;
-    padding: 350px 0px 350px 0px;
+    padding: 300px 0px 50px;
     color: #E4E1FC;
+    font-size: 100px;
 }
 
 #name {
     color: #FBDFEA;
-    font-size: 60px;
+    font-size: 3ch;
 }
 
 .bio { 
     background-color: #FBDFEA;
     padding: 100px;
     color: #E51A66;
-    font-size: 30px;
+    font-size: 4ch;
     text-align: center;
     margin: 50px;
     border-radius: 10ch;
@@ -43,7 +44,7 @@ html {
 #header {
     text-align: center;
     color: #E4E1FC;
-    font-size: 70px;
+    font-size: 100px;
     margin: 50px;
 }
 
@@ -57,6 +58,7 @@ html {
     color: #db5501;
     padding: 30px;
     margin: 50px;
+    font-size: 3ch;
 }
 
 .sample_cue{
@@ -69,6 +71,7 @@ html {
     display: grid;
     grid-template-columns: 55% 45%;
     place-items: center;
+    margin: 0px 10%;
 }
 
 .mspic{
@@ -92,6 +95,7 @@ html {
 .espic{
     height: 200px;
     margin: 20px 0px 0px 0px;
+    border-radius: 10ch;
 }
 
 .extra_samples{
@@ -100,12 +104,12 @@ html {
 
 .extra_sample{
     width: 80%;
-    background-color: #fdda9c;
+    background-color: #fde69c;
     color: #db5501;
     margin: 10px;
-    padding: 10px;
     place-items: center;
     font-weight: bold;
+    border-radius: 20ch;
 }
 
 .plug{
@@ -113,10 +117,11 @@ html {
     color:#db5501;
     padding: 20px;
     margin: 50px auto 50px auto;
-    width: 60%;
+    width: 70%;
     place-items: center;
     text-align: center;
     border-radius: 10ch;
+    font-size: 2ch;
 }
 
 .allsamples{
@@ -154,8 +159,8 @@ div.desc {
 }
 
 #content{
-    background-color: rgb(249, 187, 187);
-    color: #7a0202;
+    background-color: #d1baf0;
+    color: #712fcc;
 }
 
 #concept{
@@ -166,9 +171,9 @@ div.desc {
 .work_title {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #688543;
+    background-color: #709144;
     padding: 0px 20px 0px 20px;
-    color: #FBDFEA;
+    color: #fdd9e8;
     font-size: 20px;
 }
 
@@ -202,7 +207,7 @@ div.desc {
     background-color: #E51A66;
     color: #FBDFEA;
     margin: 0px 100px;
-    padding: 25px;
+    padding: 25px 40px;
     border-radius: 3ch;
 }
 
@@ -212,13 +217,13 @@ div.desc {
     background-color: #E51A66;
     color: #E4E1FC;
     margin: 0px 100px;
-    padding: 25px;
+    padding: 25px 40px;
     border-radius: 3ch;
 }
 
 .technical_skills {
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 280px auto;
     margin: 40px;
 }
 
@@ -229,45 +234,51 @@ div.desc {
 
 #skill_title {
     background-color:#FBDFEA;
-    padding: 10px;
-    color: #506734;
+    padding: 20px;
+    color: rgb(26, 108, 103);
     border-radius: 3ch;
 }
 
 .skill_meat {
-    background-color: #981144;
+    background-color: rgb(33, 133, 126);
     padding: 10px 20px;
     margin: 10px;
     text-align: center;
     font-weight: bold;
-    color:#E8EFDF;
+    font-size: 2ch;
+    color:#f1f6cc;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
     font-family: "Quicksand", sans-serif;
 }
 
 .nontechnical_skills {
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 280px auto;
     margin: 40px;
 }
 
 .ntskill_meat {
-    background-color: #981144;
+    background-color: #E8EFDF;
     padding: 10px 20px;
     margin: 10px;
     text-align: center;
     font-family: "Quicksand", sans-serif;
-    color:#E8EFDF;
+    color:#981144;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
+}
+
+.skill_meat.h2 {
+    place-content: center;
 }
 
 //colors
 green darker #688543 - green dark #9DBB77 - green light #E8EFDF
 pink dark #E51A66 - pink white #FBDFEA
 blue dark #341AE5 - blue light #E4E1FC
-dark orange #db5501 - light orange #fdda9c
+orange dark #db5501 - orange light #fdda9c
+green dark rgb(167, 226, 224)- green light hsl(177, 90%, 15%)
 //
