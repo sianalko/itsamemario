@@ -23,7 +23,7 @@ html {
     text-align: center;
     padding: 300px 0px 50px;
     color: #E4E1FC;
-    font-size: 100px;
+    font-size: 5vw;
 }
 
 #name {
@@ -272,6 +272,10 @@ div.desc {
 }
 
 .skill_meat.h2 {
+    place-content: center;
+}
+
+.ntskill_meat.h2 {
     place-content: center;
 }
 
