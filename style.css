@@ -9,7 +9,7 @@ html {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 2000px) {
     .skill_meat {
         grid-template-columns: 50% 50%;
     }
