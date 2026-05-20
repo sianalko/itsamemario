@@ -47,16 +47,16 @@ html {
     background-color: #FBDFEA;
     padding: 100px;
     color: #E51A66;
-    font-size: 4ch;
+    font-size: 2vw;
     text-align: center;
     margin: 50px;
-    border-radius: 5vw;
+    border-radius: 10ch;
 }
 
 #header {
     text-align: center;
     color: #E4E1FC;
-    font-size: 100px;
+    font-size: 10ch;
     margin: 50px;
 }
 
@@ -171,7 +171,7 @@ div.desc {
 }
 
 #content{
-    background-color: #d1baf0;
+    background-color: #d6bafa;
     color: #712fcc;
 }
 
