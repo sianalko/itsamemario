@@ -3,10 +3,16 @@ html {
     font-family: "Quicksand", sans-serif;
 }
 
+@media screen and (min-width: 500px) {
+    .extra_samples {
+        margin: 0px 0px 0px 50px;
+    }
+}
+
 @media screen and (max-width: 1000px) {
-  {
-    .extra_samples {float: right;}
-  }
+    .skill_meat {
+        grid-template-columns: 50% 50%;
+    }
 }
 
 .dynapuff-<uniquifier> {
