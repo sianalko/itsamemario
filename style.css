@@ -3,6 +3,18 @@ html {
     font-family: "Quicksand", sans-serif;
 }
 
+@media screen and (min-width: 500px) {
+    .extra_samples {
+        margin: 0px 0px 0px 50px;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .skill_meat {
+        grid-template-columns: 50% 50%;
+    }
+}
+
 .dynapuff-<uniquifier> {
   font-family: "DynaPuff", system-ui;
   font-optical-sizing: auto;
@@ -38,7 +50,7 @@ html {
     font-size: 4ch;
     text-align: center;
     margin: 50px;
-    border-radius: 10ch;
+    border-radius: 5vw;
 }
 
 #header {
